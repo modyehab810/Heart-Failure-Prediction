@@ -1,6 +1,10 @@
 # Heart Failure Prediction & Streamlit Web App 💔🩺
 ♠ Using a Machine Learning XGboost Classification Model to Predict If The Patient Has Heart Failure or Not From a Features like(Age, Resting Blood Pressure, Cholesterol, Max Heart Rate, Gender, Chest Pain Type, Fasting Blood Sugar, ...)
 
+### Web App Link: <a href = "https://yearly-spent-prediction-h9njsfqgjj8owews8cclnp.streamlit.app/" target="_blank" style = "color: tomato">Click Here To Visit Streamlit Web App</a>🥰📊
+
+### Kaggle Notebook For Main Steps: <a href = "https://www.kaggle.com/muhammadehabmuhammad/customer-s-spending-forecasting-streamlit-app" target="_blank" style = "color: tomato">Click Here To Visit Kaggle Notebbok</a>🥰📊
+
 ## Steps To Create The Model
 #### 🩺 Get quick overview 🤩
 #### 🩺 Checking for duplicates and nulls values 🧹
