@@ -3,3 +3,4 @@ gunicorn==19.7.1
 scikit-learn==1.2.0
 numpy
 pandas
+xgboost==2.0.3
