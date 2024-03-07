@@ -24,10 +24,10 @@ def run():
 
     # Function To Load Our Dataset
     @st.cache_data
-    def load_heart_detection_model(model_path):
+    def load_model(model_path):
         return pd.read_pickle(model_path)
 
-    model = load_heart_detection_model("xgboost_hear_disease_detection_v1.pkl")
+    model = load_model("xgboost_hear_disease_detection_v1.pkl")
 
     st.markdown(
         """
