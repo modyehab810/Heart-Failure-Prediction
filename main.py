@@ -16,7 +16,7 @@ import warnings
 def run():
     st.set_page_config(
         page_title="Heart Failure Detection",
-        page_icon="📊",
+        page_icon="❤",
         layout="wide"
     )
 
