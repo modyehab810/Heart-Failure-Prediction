@@ -1,15 +1,11 @@
 # Importing ToolKits
 import re
-
 from time import sleep
 import pandas as pd
 import numpy as np
-import plotly.express as px
-from sklearn.metrics import mean_squared_error, accuracy_score, confusion_matrix
 
 import streamlit as st
 from streamlit.components.v1 import html
-from streamlit_option_menu import option_menu
 import warnings
 
 
@@ -27,7 +23,7 @@ def run():
     def load_model(model_path):
         return pd.read_pickle(model_path)
 
-    model = load_model("xgboost_hear_disease_detection_v1.pkl")
+    model = pd.read_pickle("xgboost_hear_disease_detection_v1.pkl")
 
     st.markdown(
         """
