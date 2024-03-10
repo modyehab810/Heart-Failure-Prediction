@@ -3,7 +3,7 @@
 
 ### Web App Link: <a href = "https://heart-failure-prediction-8lygyzhmwy3uctejsac3wj.streamlit.app/" style = "color: tomato">Click Here To Visit Streamlit Web App</a>🥰📊
 
-### Kaggle Notebook For Main Steps: <a href = "https://www.kaggle.com/muhammadehabmuhammad/customer-s-spending-forecasting-streamlit-app" target="_blank" style = "color: tomato">Click Here To Visit Kaggle Notebbok</a>🥰📊
+### Kaggle Notebook For Main Steps: <a href = "https://www.kaggle.com/code/muhammadehabmuhammad/heart-failure-prediction-streamlit-app" target="_blank" style = "color: tomato">Click Here To Visit Kaggle Notebbok</a>🥰📊
 
 ## Steps To Create The Model
 #### 🩺 Get quick overview 🤩
