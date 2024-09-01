@@ -121,6 +121,9 @@ def run():
         .st-emotion-cache-1v0mbdj {
         display: block;
         }
+        .st-emotion-cache-gi0tri{
+            display:none !important;
+        }
 
 
     </style>
