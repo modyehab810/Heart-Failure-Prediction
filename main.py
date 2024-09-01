@@ -82,7 +82,7 @@ def run():
         div[data-baseweb=select]>div{
             cursor: pointer;
             background-color: #111;
-            border: 4px solid #333
+            border: 0
         }
         div[data-baseweb=select]>div:hover{
             border: 4px solid #B72F39
