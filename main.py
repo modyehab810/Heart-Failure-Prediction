@@ -71,7 +71,7 @@ def run():
          div.st-emotion-cache-1r6slb0 span.st-emotion-cache-10trblm{
             font: bold 24px tahoma
          }
-         div [data-testid=stImage]{
+         div[data-testid=stImage]{
             text-align: center;
             display: block;
             margin-left: auto;
@@ -113,6 +113,10 @@ def run():
             opacity: 1;
             border: 2px solid #B72F39;
             color: #fff
+        }
+        .stAppViewBlockContainer{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
         }
 
     </style>
