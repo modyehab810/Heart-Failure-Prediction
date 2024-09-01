@@ -115,9 +115,13 @@ def run():
             color: #fff
         }
         .stAppViewBlockContainer{
-        padding-left: 0px !important;
-        padding-right: 0px !important;
+        padding-left: 2.5rem !important;
+        padding-right: 2.5rem !important;
         }
+        .st-emotion-cache-1v0mbdj {
+        display: block;
+        }
+
 
     </style>
     """,
