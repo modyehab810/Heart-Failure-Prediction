@@ -277,7 +277,7 @@ def run():
                         st.subheader(f"{prediction_prop[0, 0]}%")
 
                     with no_heart_disease:
-                         left_col, center_col, right_col = st.columns([1, 2, 1])
+                        left_col, center_col, right_col = st.columns([1, 2, 1])
                         with center_col:
                             st.image("imgs/hearted.png", caption="", width=65)
                             
