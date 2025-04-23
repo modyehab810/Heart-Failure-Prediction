@@ -125,15 +125,6 @@ def run():
             display:none !important;
         }
 
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .stImage {
-            text-align: center;
-        }
-
 
     </style>
     """,
@@ -258,31 +249,25 @@ def run():
                     sleep(1.2)
 
                     heart_disease, no_heart_disease = st.columns(2)
-                    left_col, center_col, right_col = st.columns([1, 2, 1])
-                    
-                    with center_col:
-                        st.image("imgs/heartbeat.png", caption="", width=100)
-                        if predicted_value == 0:
-                            st.subheader("Expected He Is")
-                            st.subheader(":green[Not a Heart Patient]")
-    
-                        else:
-                            st.subheader(f"Expected He Is")
-                            st.subheader(":red[Heart Patient]")
+
+                    st.image("imgs/heartbeat.png",
+                             caption="", width=100)
+                    if predicted_value == 0:
+                        st.subheader("Expected He Is")
+                        st.subheader(":green[Not a Heart Patient]")
+
+                    else:
+                        st.subheader(f"Expected He Is")
+                        st.subheader(":red[Heart Patient]")
 
                     with heart_disease:
-                        left_col, center_col, right_col = st.columns([1, 2, 1])
-                        with center_col:
-                            st.image("imgs/heart.png", caption="", width=65)
-                            st.subheader(":green[*Not Heart Patient*]")
-                            st.subheader(f"{prediction_prop[0, 0]}%")
+                        st.image("imgs/heart.png", caption="", width=65)
+                        st.subheader(":green[*Not Heart Patient*]")
+                        st.subheader(f"{prediction_prop[0, 0]}%")
 
                     with no_heart_disease:
-                        left_col, center_col, right_col = st.columns([1, 2, 1])
-                        with center_col:
-                            st.image("imgs/hearted.png", caption="", width=65)
-                            st.subheader(f":red[*Heart Patient*]")
-                            st.subheader(f"{prediction_prop[0, 1]}%")
-
+                        st.image("imgs/hearted.png", caption="", width=65)
+                        st.subheader(f":red[*Heart Patient*]")
+                        st.subheader(f"{prediction_prop[0, 1]}%")
 
 run()
