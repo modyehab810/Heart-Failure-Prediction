@@ -265,10 +265,10 @@ def run():
                         if predicted_value == 0:
                             st.subheader("Expected He Is")
                             st.subheader(":green[Not a Heart Patient]")
-
-                    else:
-                        st.subheader(f"Expected He Is")
-                        st.subheader(":red[Heart Patient]")
+    
+                        else:
+                            st.subheader(f"Expected He Is")
+                            st.subheader(":red[Heart Patient]")
 
                     with heart_disease:
                         left_col, center_col, right_col = st.columns([1, 2, 1])
