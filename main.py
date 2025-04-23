@@ -124,16 +124,6 @@ def run():
         .st-emotion-cache-gi0tri{
             display:none !important;
         }
-        
-        div[data-testid=stVerticalBlock]{
-            align-items: center;
-            width: 209.175px;
-            position: relative;
-            display: flex;
-            flex: 1 1 0%;
-            flex-direction: column;
-            gap: 1rem;
-        }
 
 
     </style>
@@ -279,5 +269,6 @@ def run():
                         st.image("imgs/hearted.png", caption="", width=65)
                         st.subheader(f":red[*Heart Patient*]")
                         st.subheader(f"{prediction_prop[0, 1]}%")
+
 
 run()
