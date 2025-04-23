@@ -124,6 +124,16 @@ def run():
         .st-emotion-cache-gi0tri{
             display:none !important;
         }
+        
+        div[data-testid=stVerticalBlock]{
+            align-items: center;
+            width: 209.175px;
+            position: relative;
+            display: flex;
+            flex: 1 1 0%;
+            flex-direction: column;
+            gap: 1rem;
+        }
 
 
     </style>
